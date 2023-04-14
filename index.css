@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #C3AEFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+.main-title {
+    font-size: 28px;
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.bod-form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+}
+
+.bod {    
+    flex: 50%;
+    margin: 30px 0px;
+}
+
+.input {
+    font-size: 24px;
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.calculate .calc-btn {
+    background-color: #3300FF;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 30px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.calculate .calc-btn:hover {
+    background-color: #1f009a;
+    transition: 0.2s;
+}
+
+.age-form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+}
+
+.age {
+    flex: 50%;
+    margin: 30px 0px;
+}
+
+.owner {
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+    font-size: 24px;
+}

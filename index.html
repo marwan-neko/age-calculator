@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-title">
+        <h1>Age Calculator</h1>
+    </div>
+    <div class="container">
+        <div class="birthdate">
+            <div class="title">
+                <h1>Birth Date</h1>
+            </div>
+            <div class="bod-form">
+                <div class="bod">
+                    <p>Day</p>
+                </div>
+                <div class="bod">
+                    <select class="input" name="day" id="day"></select>
+                </div>
+                <div class="bod">
+                    <p>Month</p>
+                </div>
+                <div class="bod">
+                    <select class="input" name="month" id="month" onchange="getDay()"></select>
+                </div>
+                <div class="bod">
+                    <p>Year</p>
+                </div>
+                <div class="bod">
+                    <select class="input" name="year" id="year"></select>
+                </div>
+            </div>
+            <div class="calculate">
+                <button class="calc-btn" id="calculate" onclick="calculate()">Calculate</button>
+            </div>        
+        </div>
+        <div class="result">
+            <div class="title">
+                <h1>This is your age:</h1>
+            </div>
+            <div class="age-form">
+                <div class="age">
+                    <p>Year</p>
+                </div>
+                <div class="age">
+                    <p id="year-age">--</p>
+                </div>
+                <div class="age">
+                    <p>Month</p>
+                </div>
+                <div class="age">
+                    <p id="month-age">--</p>
+                </div>
+                <div class="age">
+                    <p>Day</p>
+                </div>
+                <div class="age">
+                    <p id="day-age">--</p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <div class="owner">
+        <p>Made by Marwan Bin Shamon</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
